@@ -13,4 +13,23 @@ public class Menu {
 	 * 菜单名称
 	 */
 	private String menuName;
+	public String getMenuKey() {
+		return menuKey;
+	}
+	public void setMenuKey(String menuKey) {
+		this.menuKey = menuKey;
+	}
+	public String getParentID() {
+		return parentID;
+	}
+	public void setParentID(String parentID) {
+		this.parentID = parentID;
+	}
+	public String getMenuName() {
+		return menuName;
+	}
+	public void setMenuName(String menuName) {
+		this.menuName = menuName;
+	} 
+	
 }
